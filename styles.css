@@ -1,0 +1,103 @@
+html {
+    min-height: 100%
+}
+
+.page a,
+.page a:hover,
+.page a:link,
+.page a:visited,
+.page a:active,
+.page span[href] {
+    color: #000
+}
+
+.block-item .btn-link,
+.block-item .btn-link:hover,
+.block-item .btn-link:link,
+.block-item .btn-link:active,
+.block-item .btn-link:visited {
+    background: #7795f8;
+    color: #fff;
+    border-color: #7795f8;
+}
+
+html {
+    background: #eff2f7 !important;
+}
+
+.page,
+.block-text a,
+.block-form .form-field,
+.block-html a,
+.collapse-item a,
+.collapse-item .a,
+.footer-link,
+.footer-link:hover,
+.footer-link:link,
+.footer-link:visited,
+.footer-link:active,
+.product-container-text,
+.page .label,
+.flip-clock-label {
+    color: #000 !important
+}
+
+.flip-clock-dot {
+    background: #000
+}
+
+.block-text {
+    font-size: 2.2em
+}
+
+.collapse-icon::after,
+.collapse-icon::before {
+    background: #000 !important;
+}
+
+.block-break:before {
+    border-color: #000
+}
+
+.text-avatar {
+    color: #777 !important
+}
+
+.footer-link svg {
+    fill: #000 !important
+}
+
+.block-item .checkbox input:checked:before,
+.block-item .radio input:checked:before {
+    background: #7795f8;
+    border-color: #7795f8;
+}
+
+.block-item .checkbox input:after,
+.block-item .radio input:after {
+    border-color: #fff
+}
+
+.btn-group-theme {
+    border-color: #7795f8
+}
+
+.btn-group-theme .button {
+    background: transparent;
+    border-color: #7795f8 !important;
+    color: #000
+}
+
+.btn-group-theme .active {
+    background: #7795f8;
+    color: #fff !important
+}
+
+.block-form input[type="text"]:focus,
+.block-form input[type="tel"]:focus,
+.block-form input[type="number"]:focus,
+.block-form textarea:focus,
+.block-form select:focus {
+    border-color: #7795f8 !important;
+    box-shadow: 0 0px 0 1px #7795f8 !important;
+}
