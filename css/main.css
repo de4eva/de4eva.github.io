@@ -1,0 +1,66 @@
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  color: #333; }
+
+.card-header {
+  padding: 0; }
+  .card-header .card-body {
+    padding: 0; }
+  .card-header .btn-link {
+    padding: 0;
+    width: 100%;
+    color: black;
+    font-size: 24px; }
+  .card-header:hover {
+    color: black;
+    text-decoration: none; }
+
+.tbl table {
+  padding: 0;
+  margin: auto;
+  background: white;
+  max-width: 720px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left; }
+
+.tbl caption {
+  border-bottom: 2px solid #999;
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  margin: 10px auto 0; }
+
+.tbl th {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 900;
+  border-bottom: 2px solid #999;
+  padding: 15px 15px 10px 15px; }
+
+.tbl td {
+  font-size: 16px;
+  line-height: 22px;
+  color: #555;
+  border-top: 1px solid #ddd;
+  padding: 3px 10px; }
+
+.tbl .col2 {
+  width: 10%;
+  text-align: center;
+  border-left: 1px solid #ddd; }
+
+.tbl tr:hover td {
+  background: #efefef; }
+
+btn-link {
+  background-color: #000;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 300px; }
